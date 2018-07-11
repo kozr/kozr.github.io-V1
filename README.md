@@ -1,2 +1,9 @@
 # expert-octo-dollop
-Largest ongoing project
+
+Largest work in progress (WIP) project
+
+may contain unstable functions, features and graphics...
+
+
+
+
