@@ -1,0 +1,69 @@
+#navbar {
+  overflow: hidden;
+  background-color: #f3f3f3;
+  margin: 0px 50px 0px -10px;
+  width: 120%
+}
+#navbar a {
+  float: left;
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  
+}
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #86D2EB;
+  color: white;
+}
+.content {
+  padding: 16px;
+}
+.glue {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.glue + .content {
+  padding-top: 60px;
+}
+h3 {
+    margin-top: 25px;
+    font-size: 50px;
+    text-align: center;
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+         -o-animation: fadein 3s; /* Opera < 12.1 */
+            animation: fadein 3s; /* Regular */
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
