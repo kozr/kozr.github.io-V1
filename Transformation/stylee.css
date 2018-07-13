@@ -72,8 +72,32 @@ h1 {
     to   { opacity: 1; }
 }
 
-.hidden {
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 0s 2s, opacity 2s linear;
+.fadeout {
+    opacity: 1;
+    text-align: center;
+    -webkit-animation: fadeout 2s ease-in 1s 1 forwards;
+       -moz-animation: fadeout 2s ease-in 1s 1 forwards; 
+        -ms-animation: fadeout 2s ease-in 1s 1 forwards;
+         -o-animation: fadeout 2s ease-in 1s 1 forwards; 
+            animation: fadeout 2s ease-in 1s 1 forwards; 
+}
+@keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
+@-moz-keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
+@-webkit-keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
+@-ms-keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
+@-o-keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
 }
