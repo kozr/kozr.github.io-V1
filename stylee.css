@@ -10,6 +10,7 @@ body {
 }
 
 .logo {
+    opacity: 0;
     padding-left: -20px;
     padding-top: 10px;
     padding-bottom: 20px;
@@ -20,6 +21,7 @@ body {
 
 
 #background {
+    opacity: 0;
     margin:0;
     padding:0;
     position:absolute;
@@ -33,7 +35,6 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    opacity: 0.9;
     background-attachment: scroll;
  }
 
@@ -104,6 +105,36 @@ body {
 @-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+.fadein09 {
+    opacity: 0;
+    text-align: center;
+    -webkit-animation: fadein 2s ease-in 2s 1 forwards;
+       -moz-animation: fadein 2s ease-in 2s 1 forwards; 
+        -ms-animation: fadein 2s ease-in 2s 1 forwards;
+         -o-animation: fadein 2s ease-in 2s 1 forwards; 
+            animation: fadein 2s ease-in 2s 1 forwards; 
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.9; }
+}
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.9; }
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.9; }
+}
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.9; }
+}
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.9; }
 }
 
 .fadeout {
