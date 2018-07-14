@@ -3,25 +3,25 @@ h {
 	font-family: arial;
 }
 
-a:link {
+a1 :link {
     color: black; 
     background-color: transparent; 
     text-decoration: none;
 }
 
-a:visited {
+a1 :visited {
     color: black;
     background-color: transparent;
     text-decoration: none;
 }
 
-a:hover {
+a1 :hover {
     color: black;
     background-color: transparent;
     text-decoration: underline;
 }
 
-a:active {
+a1 :active {
     color: black;
     background-color: transparent;
     text-decoration: none;
