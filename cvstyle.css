@@ -1,3 +1,97 @@
+h1 {
+  padding-bottom: 20px;
+}
+
+.fadeindiff {
+    opacity: 0;
+    text-align: center;
+    -webkit-animation: fadein 0.75s ease-in 0s 1 forwards;
+       -moz-animation: fadein 0.75s ease-in 0s 1 forwards; 
+        -ms-animation: fadein 0.75s ease-in 0s 1 forwards;
+         -o-animation: fadein 0.75s ease-in 0s 1 forwards; 
+            animation: fadein 0.75s ease-in 0s 1 forwards; 
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+  body {
+   position: relative;
+    z-index: -5;
+  }
+
+  h1 {
+    font-size: 25px;
+    font-family: arial;
+    text-align: center;
+    font-weight: bold;
+    }
+  
+  #navbar {
+    overflow: hidden;
+    background-color: rgba(243,243,243,0.85);
+    margin: 0px 50px 0px -0px;
+    width: 100%;
+    position: auto;
+    z-index: 10;
+  }
+    /* Translucent 
+    color: rgba(255,255,255,0.5);
+    */
+  #navbar a {
+    float: left;
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;  
+    
+  }
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  /* #86D2EB */
+  #navbar a.active {
+    background-color: #86D2EB;
+    color: white;
+  }
+  
+  .content {
+    padding: 16px;
+  }
+  .glue {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .glue + .content {
+    padding-top: 60px;
+  }
+
+  .hidden {
+      opacity: 0;
+  }
+
+
+
+
 /* W3.CSS 4.10 February 2018 by Jan Egil and Borge Refsnes */
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
@@ -229,90 +323,3 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-border-dark-grey,.w3-hover-border-dark-grey:hover,.w3-border-dark-gray,.w3-hover-border-dark-gray:hover{border-color:#616161!important}
 .w3-border-pale-red,.w3-hover-border-pale-red:hover{border-color:#ffe7e7!important}.w3-border-pale-green,.w3-hover-border-pale-green:hover{border-color:#e7ffe7!important}
 .w3-border-pale-yellow,.w3-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.w3-border-pale-blue,.w3-hover-border-pale-blue:hover{border-color:#e7ffff!important}
-.fadeindiff {
-    opacity: 0;
-    text-align: center;
-    -webkit-animation: fadein 0.75s ease-in 0s 1 forwards;
-       -moz-animation: fadein 0.75s ease-in 0s 1 forwards; 
-        -ms-animation: fadein 0.75s ease-in 0s 1 forwards;
-         -o-animation: fadein 0.75s ease-in 0s 1 forwards; 
-            animation: fadein 0.75s ease-in 0s 1 forwards; 
-}
-@keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-@-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-@-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-@-ms-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-@-o-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-  body {
-   position: relative;
-    z-index: -5;
-  }
-
-  h1 {
-    font-size: 25px;
-    font-family: arial;
-    text-align: center;
-    font-weight: bold;
-    }
-  
-  #navbar {
-    overflow: hidden;
-    background-color: rgba(243,243,243,0.85);
-    margin: 0px 50px 0px -0px;
-    width: 100%;
-    position: auto;
-    z-index: 10;
-  }
-    /* Translucent 
-    color: rgba(255,255,255,0.5);
-    */
-  #navbar a {
-    float: left;
-    display: block;
-    color: #666;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;  
-    
-  }
-  #navbar a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  /* #86D2EB */
-  #navbar a.active {
-    background-color: #86D2EB;
-    color: white;
-  }
-  
-  .content {
-    padding: 16px;
-  }
-  .glue {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  .glue + .content {
-    padding-top: 60px;
-  }
-
-  .hidden {
-      opacity: 0;
-  }
-

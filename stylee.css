@@ -3,6 +3,7 @@ h1 {
   font-family: arial;
   position: relative;
   z-index: 100;
+  padding-bottom: 20px;
 }
 body {
     overflow-x: hidden;
