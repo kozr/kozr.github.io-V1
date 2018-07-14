@@ -232,11 +232,11 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .fadeindiff {
     opacity: 0;
     text-align: center;
-    -webkit-animation: fadein 1s ease-in 0s 1 forwards;
-       -moz-animation: fadein 1s ease-in 0s 1 forwards; 
-        -ms-animation: fadein 1s ease-in 0s 1 forwards;
-         -o-animation: fadein 1s ease-in 0s 1 forwards; 
-            animation: fadein 1s ease-in 0s 1 forwards; 
+    -webkit-animation: fadein 0.75s ease-in 0s 1 forwards;
+       -moz-animation: fadein 0.75s ease-in 0s 1 forwards; 
+        -ms-animation: fadein 0.75s ease-in 0s 1 forwards;
+         -o-animation: fadein 0.75s ease-in 0s 1 forwards; 
+            animation: fadein 0.75s ease-in 0s 1 forwards; 
 }
 @keyframes fadein {
     from { opacity: 0; }
@@ -267,6 +267,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     font-size: 25px;
     font-family: arial;
     text-align: center;
+    font-weight: bold;
     }
   
   #navbar {

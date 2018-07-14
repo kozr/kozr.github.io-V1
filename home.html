@@ -2,24 +2,24 @@
 <html lang="en-US">
 <title> Welcome </title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="stylee.css">
-<img src="background.jpg" class="fadein" id="background"/>
-<h class="fadeout">Hello World!</h>
-
- <h1 class="fadein">Nicholas Wong</h1>
-  <div id="navbar" class="fadein">
+<link rel="stylesheet" type="text/css" href="homestyle.css">
+<h class="hidden">Hello World!</h>
+<body>
+ <h1 class="std">Nicholas Wong</h1>
+<div id="navbar" class="std">
 	<a class="active" href="home.html">Home</a>
 	<a href="javascript:void(0)">My Projects</a>
   <a href="javascript:void(0)">Contact</a>
-  <a href="cvindex.html">Curriculum Vitae </a>  
-  </div>
-
-  <div class="content fadein">
-    <h3>Stuff</h3>
-
-
-
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js">
+  <a href="cvindex.html">Curriculum Vitae </a>
+</div>
+<!--
+<img src="pfp.png" class="img-responsive img-circle" alt="Nicholas" style="border: 0px;" >
+-->
+<div class="#">
+  <h3>Stuff</h3>
+  
+</body>
+<script>
 window.onscroll = function() {myFunction()};
 
 var navbar = document.getElementById("navbar");
@@ -32,6 +32,5 @@ function myFunction() {
     navbar.classList.remove("glue");
   }
 }
-
 </script>
 
