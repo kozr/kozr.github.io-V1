@@ -8,11 +8,15 @@
   margin-left: -75px;
 }
 
+.background {
+  background-attachment: fixed;
+}
 
 #background {
   margin:0;
   padding:0;
-  position:absolute;
+  background-repeat: no-repeat;
+  position: absolute;
   z-index: -1;
   display: initial;
   top:0;
