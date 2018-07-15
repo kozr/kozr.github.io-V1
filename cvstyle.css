@@ -1,17 +1,28 @@
 
 .logo {
-  padding-left: -20px;
+  padding-left: 0px;
   padding-top: 10px;
   padding-bottom: 20px;
   width: 25%;
   height: 25%;
-  margin-left: -75px;
+  margin-left: -60px;
 }
-
+i1 {
+  margin-top: 15px;   
+  margin-bottom: -10px;
+  font-size: 16px;
+}
+i{
+  font-size: 16px;
+}
 .background {
   background-attachment: fixed;
 }
 
+html {
+  overflow-y: scroll;
+}
+  
 #background {
   margin:0;
   padding:0;
@@ -34,11 +45,11 @@
 .fadeindiff {
     opacity: 0;
     text-align: center;
-    -webkit-animation: fadein 0.75s ease-in 0s 1 forwards;
-       -moz-animation: fadein 0.75s ease-in 0s 1 forwards; 
-        -ms-animation: fadein 0.75s ease-in 0s 1 forwards;
-         -o-animation: fadein 0.75s ease-in 0s 1 forwards; 
-            animation: fadein 0.75s ease-in 0s 1 forwards; 
+    -webkit-animation: fadein 0.75s ease-out 0s 1 forwards;
+       -moz-animation: fadein 0.75s ease-out 0s 1 forwards; 
+        -ms-animation: fadein 0.75s ease-out 0s 1 forwards;
+         -o-animation: fadein 0.75s ease-out 0s 1 forwards; 
+            animation: fadein 0.75s ease-out 0s 1 forwards; 
 }
 @keyframes fadein {
     from { opacity: 0; }
@@ -60,14 +71,6 @@
     from { opacity: 0; }
     to   { opacity: 1; }
 }
-
-  h1 {
-    font-size: 25px;
-    font-family: arial;
-    text-align: center;
-    font-weight: bold;
-    padding-bottom: 20px;
-    }
   
   #navbar {
     overflow: hidden;
@@ -145,8 +148,8 @@ legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}t
 ::-webkit-input-placeholder{color:inherit;opacity:0.54}
 ::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
 /* End extract */
-html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
-h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}.w3-serif{font-family:serif}
+html,body{font-family:Verdana,sans-serif;font-size:16px;line-height:1.5}html{overflow-x:hidden}
+h1{font-size:36px}h2{font-size:30px; text-align: center;}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}.w3-serif{font-family:serif}
 h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0}.w3-wide{letter-spacing:4px}
 hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-image{max-width:100%;height:auto}img{vertical-align:middle}a{color:inherit}
@@ -225,7 +228,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-circle{border-radius:50%}
 .w3-round-small{border-radius:2px}.w3-round,.w3-round-medium{border-radius:4px}.w3-round-large{border-radius:8px}.w3-round-xlarge{border-radius:16px}.w3-round-xxlarge{border-radius:32px}
 .w3-row-padding,.w3-row-padding>.w3-half,.w3-row-padding>.w3-third,.w3-row-padding>.w3-twothird,.w3-row-padding>.w3-threequarter,.w3-row-padding>.w3-quarter,.w3-row-padding>.w3-col{padding:0 8px}
-.w3-container,.w3-panel{padding:0.01em 16px}.w3-panel{margin-top:16px;margin-bottom:16px}
+.w3-container,.w3-panel{padding:0.01em 50px}.w3-panel{margin-top:20px;margin-bottom:20px}
 .w3-code,.w3-codespan{font-family:Consolas,"courier new";font-size:16px}
 .w3-code{width:auto;background-color:#fff;padding:8px 12px;border-left:4px solid #4CAF50;word-wrap:break-word}
 .w3-codespan{color:crimson;background-color:#f1f1f1;padding-left:4px;padding-right:4px;font-size:110%}

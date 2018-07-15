@@ -1,10 +1,4 @@
-h1 {
-  font-size: 25px;
-  font-family: arial;
-  position: relative;
-  z-index: 100;
-  padding-bottom: 20px;
-}
+
 body {
     overflow-x: hidden;
 }
@@ -12,12 +6,15 @@ body {
 .logo {
     opacity: 0;
     padding-left: -20px;
-    padding-top: 5px;
+    padding-top: -20px;
     padding-bottom: 20px;
     width: 25%;
     height: 25%;
     margin-left: 10px;
 }
+html {
+    overflow-y: scroll;
+  }
 
 #background {
     opacity: 0;

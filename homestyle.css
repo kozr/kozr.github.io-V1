@@ -1,15 +1,8 @@
-h1 {
-  font-size: 25px;
-  font-family: arial;
-  padding-bottom: 20px;
-}
 
-body {/*
-    background-image: url("https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d00f965d7f845968dd35c3590094149f&auto=format&fit=crop&w=1650&q=80");
-    background-repeat: no-repeat;
-    background-size: cover;*/
+body {
     overflow-x: hidden;
 }
+
 #background {
     margin:0;
     padding:0;
@@ -27,12 +20,17 @@ body {/*
     opacity: 0.90;
  }
 
-#navbar {
-  font-size: 17px;
+ html {
+  overflow-y: scroll;
+}
+
+ #navbar {
   overflow: hidden;
-  background-color: rgba(243,243,243,0.80);
-  margin: 0px 50px 0px -09px;
-  width: 120%
+  background-color: rgba(243,243,243,0.85);
+  margin: 0px 50px 0px -0px;
+  width: 100%;
+  position: auto;
+  z-index: 10;
 }
   /* Translucent 
   color: rgba(255,255,255,0.5);
@@ -43,7 +41,7 @@ body {/*
   color: #666;
   text-align: center;
   padding: 14px;
-  text-decoration: none;
+  text-decoration: none;  
   
 }
 #navbar a:hover {
@@ -54,6 +52,9 @@ body {/*
 #navbar a.active {
   background-color: #86D2EB;
   color: white;
+}
+html {
+  overflow-y: scroll;
 }
 
 .content {
@@ -78,7 +79,7 @@ body {/*
     padding-bottom: 20px;
     width: 25%;
     height: 25%;
-    margin-left: -75px;
+    margin-left: -61px;
 }
 
 .hidden {
