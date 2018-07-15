@@ -16,8 +16,14 @@ html {
     overflow-y: scroll;
   }
 
-h3 {
-    font-size: 40px;
+  h3 {
+    margin-top: 225px;
+  }
+  h3, h4 {
+    font-size: 75px;
+    text-align: center;
+    color: white;
+    font-family: "Arial Black", Gadget, sans-serif;
   }
 #background {
     opacity: 0;
@@ -37,12 +43,14 @@ h3 {
     background-attachment: fixed;
  }
 
-#navbar {
-  overflow: hidden;
-  background-color: rgba(243,243,243,0.90);
-  margin: 0px 50px 0px -09px;
-  width: 120%
-}
+ #navbar {
+    overflow: hidden;
+    background-color: rgba(243,243,243,0.85);
+    margin: 0px 50px 0px -0px;
+    width: 100%;
+    position: auto;
+    z-index: 10;
+  }
   /* Translucent 
   color: rgba(255,255,255,0.5);
   */
@@ -105,6 +113,37 @@ h3 {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
+
+.fadeinah {
+    opacity: 0;
+    text-align: center;
+    -webkit-animation: fadein 2s ease-in 4s 1 forwards;
+       -moz-animation: fadein 2s ease-in 4s 1 forwards; 
+        -ms-animation: fadein 2s ease-in 4s 1 forwards;
+         -o-animation: fadein 2s ease-in 4s 1 forwards; 
+            animation: fadein 2s ease-in 4s 1 forwards; 
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
 
 .fadein09 {
     opacity: 0;
