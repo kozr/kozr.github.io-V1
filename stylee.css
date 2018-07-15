@@ -75,7 +75,7 @@ html {
   */
 /* but its blue heh */
 #hoverred a:hover {
-    color: red;
+    color: lightblue;
 }
 
 #navbar a {
