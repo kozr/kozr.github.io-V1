@@ -97,7 +97,7 @@ html {
 }
 .glue + .content {
   padding-top: 60px;
-}
+}s
 .std {
     opacity: 1;
     text-align: center;
@@ -115,11 +115,20 @@ html {
 h3 {
   margin-top: 225px;
 }
+
+.opac:hover img{
+  opacity: 0.5;
+}
+
 h3, h4 {
   font-size: 75px;
   text-align: center;
   color: white;
   font-family: "Arial Black", Gadget, sans-serif;
+}
+/* but its blue heh */
+#hoverred a:hover {
+  color: lightblue;
 }
 
 .hidden {

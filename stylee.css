@@ -73,6 +73,11 @@ html {
   /* Translucent 
   color: rgba(255,255,255,0.5);
   */
+/* but its blue heh */
+#hoverred a:hover {
+    color: red;
+}
+
 #navbar a {
   float: left;
   display: block;
