@@ -3,6 +3,24 @@ body {
     overflow-x: hidden;
 }
 
+
+.typewriter {
+font-size: 14px;
+overflow: hidden; 
+white-space: nowrap; 
+        animation:   typing 3.5s steps(40, end),6
+                     fadeout 2s ease-in 2s 1 forwards;
+-webkit-animation:   typing 3.5s steps(40, end),
+                     fadeout 2s ease-in 2s 1 forwards;
+   -moz-animation:   typing 3.5s steps(40, end),
+                     fadeout 2s ease-in 2s 1 forwards;
+    -ms-animation:   typing 3.5s steps(40, end),
+                     fadeout 2s ease-in 2s 1 forwards;
+     -o-animation:   typing 3.5s steps(40, end),
+                     fadeout 2s ease-in 2s 1 forwards;
+  }
+
+
 .logo {
     padding-left: -20px;
     padding-top: -20px;
@@ -25,6 +43,7 @@ html {
     color: white;
     font-family: "Arial Black", Gadget, sans-serif;
   }
+
 #background {
     opacity: 0;
     margin:0;
@@ -84,14 +103,15 @@ html {
 .glue + .content {
   padding-top: 60px;
 }
+
 .fadein {
     opacity: 0;
     text-align: center;
-    -webkit-animation: fadein 2s ease-in 2s 1 forwards;
-       -moz-animation: fadein 2s ease-in 2s 1 forwards; 
-        -ms-animation: fadein 2s ease-in 2s 1 forwards;
-         -o-animation: fadein 2s ease-in 2s 1 forwards; 
-            animation: fadein 2s ease-in 2s 1 forwards; 
+    -webkit-animation: fadein 2s ease-in 3s 1 forwards;
+       -moz-animation: fadein 2s ease-in 3s 1 forwards; 
+        -ms-animation: fadein 2s ease-in 3s 1 forwards;
+         -o-animation: fadein 2s ease-in 3s 1 forwards; 
+            animation: fadein 2s ease-in 3s 1 forwards; 
 }
 @keyframes fadein {
     from { opacity: 0; }
@@ -117,11 +137,11 @@ html {
 .fadeinah {
     opacity: 0;
     text-align: center;
-    -webkit-animation: fadein 2s ease-in 4s 1 forwards;
-       -moz-animation: fadein 2s ease-in 4s 1 forwards; 
-        -ms-animation: fadein 2s ease-in 4s 1 forwards;
-         -o-animation: fadein 2s ease-in 4s 1 forwards; 
-            animation: fadein 2s ease-in 4s 1 forwards; 
+    -webkit-animation: fadein 2s ease-in 5s 1 forwards;
+       -moz-animation: fadein 2s ease-in 5s 1 forwards; 
+        -ms-animation: fadein 2s ease-in 5s 1 forwards;
+         -o-animation: fadein 2s ease-in 5s 1 forwards; 
+            animation: fadein 2s ease-in 5s 1 forwards; 
 }
 @keyframes fadein {
     from { opacity: 0; }
@@ -148,11 +168,11 @@ html {
 .fadein09 {
     opacity: 0;
     text-align: center;
-    -webkit-animation: fadein 2s ease-in 2s 1 forwards;
-       -moz-animation: fadein 2s ease-in 2s 1 forwards; 
-        -ms-animation: fadein 2s ease-in 2s 1 forwards;
-         -o-animation: fadein 2s ease-in 2s 1 forwards; 
-            animation: fadein 2s ease-in 2s 1 forwards; 
+    -webkit-animation: fadein 2s ease-in 3s 1 forwards;
+       -moz-animation: fadein 2s ease-in 3s 1 forwards; 
+        -ms-animation: fadein 2s ease-in 3s 1 forwards;
+         -o-animation: fadein 2s ease-in 3s 1 forwards; 
+            animation: fadein 2s ease-in 3s 1 forwards; 
 }
 @keyframes fadein {
     from { opacity: 0; }
@@ -175,15 +195,6 @@ html {
     to   { opacity: 0.9; }
 }
 
-.fadeout {
-    opacity: 1;
-    text-align: center;
-    -webkit-animation: fadeout 2s ease-in 1s 1 forwards;
-       -moz-animation: fadeout 2s ease-in 1s 1 forwards; 
-        -ms-animation: fadeout 2s ease-in 1s 1 forwards;
-         -o-animation: fadeout 2s ease-in 1s 1 forwards; 
-            animation: fadeout 2s ease-in 1s 1 forwards; 
-}
 @keyframes fadeout {
     from { opacity: 1; }
     to   { opacity: 0; }
@@ -204,3 +215,7 @@ html {
     from { opacity: 1; }
     to   { opacity: 0; }
 }
+@keyframes typing {
+    from { width: 0 }
+    to{ width: 24em; }
+  }
