@@ -35,13 +35,13 @@ html {
   }
 
   h3 {
-    margin-top: 225px;
+    margin-top: 17%;
   }
   h3, h4 {
     font-size: 75px;
     text-align: center;
     color: white;
-    font-family: "Arial Black", Gadget, sans-serif;
+    font-family: "Roboto", sans-serif;
   }
 
 #background {
