@@ -113,11 +113,7 @@ html {
 }
  
 h3 {
-  margin-top: 225px;
-}
-
-.opac:hover img{
-  opacity: 0.5;
+  margin-top: 17%;
 }
 
 h3, h4 {
@@ -131,16 +127,16 @@ h3, h4 {
   color: lightblue;
 }
 
+.imgcenter {
+  margin-left: auto; 
+  margin-right: auto; 
+  display: block;
+}
+
 .hidden {
     opacity: 0;
 }
 
-.img-circle {
-    border-radius: 50%;
-    width: 350px;
-    height: 400px;
-    background-size: cover;
-}
 img {
     vertical-align: middle;
     margin: auto;
