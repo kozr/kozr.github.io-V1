@@ -1,0 +1,2 @@
+Redirect /some-page /destination-page
+Redirect 404 /404notfound.html
