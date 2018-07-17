@@ -20,6 +20,9 @@ white-space: nowrap;
                      fadeout 2s ease-in 2s 1 forwards;
   }
 
+  ::-webkit-scrollbar{
+    display: none;
+  }
 
 .logo {
     padding-left: -20px;

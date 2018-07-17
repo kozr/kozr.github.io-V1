@@ -39,6 +39,10 @@ html {
   background-attachment: fixed;
 }
 
+::-webkit-scrollbar{
+  display: none;
+}
+
 .fadeindiff {
     opacity: 0;
     text-align: center;

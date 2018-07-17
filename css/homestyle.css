@@ -24,6 +24,10 @@ body {
   overflow-y: scroll;
 }
 
+::-webkit-scrollbar{
+  display: none;
+}
+
 .fadein {
   opacity: 0;
   text-align: center;
@@ -32,6 +36,36 @@ body {
       -ms-animation: fadein 2s ease-in 0s 1 forwards;
        -o-animation: fadein 2s ease-in 0s 1 forwards; 
           animation: fadein 2s ease-in 0s 1 forwards; 
+}
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@-moz-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@-ms-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@-o-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.fadeinahx {
+  opacity: 0;
+  text-align: center;
+  -webkit-animation: fadein 2s ease-in 1s 1 forwards;
+     -moz-animation: fadein 2s ease-in 1s 1 forwards; 
+      -ms-animation: fadein 2s ease-in 1s 1 forwards;
+       -o-animation: fadein 2s ease-in 1s 1 forwards; 
+          animation: fadein 2s ease-in 1s 1 forwards; 
 }
 @keyframes fadein {
   from { opacity: 0; }
@@ -137,6 +171,10 @@ h3, h4 {
     opacity: 0;
 }
 
+.zindexn {
+  position: absolute;
+  z-index: -2;
+}
 
 .img-responsive {
     display: block;
