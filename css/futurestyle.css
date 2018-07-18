@@ -59,3 +59,8 @@ h10 {
 .margin {
   margin-top: -15%;
 }
+.inlineimgs img {
+  display: inline-block;
+  width: 40%;
+  margin: 60px auto;
+}

@@ -1,52 +1,46 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
-<title> Welcome </title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="css/homestyle.css">
-<link rel="stylesheet" type="text/css" href="css/futurestyle.css">
 
-<style>
-  html {
-    font-family: "Roboto", sans-serif;
-    position: relative;
-  }
-</style>
+<head>
+  <title> Welcome </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/homestyle.css">
+  <link rel="stylesheet" type="text/css" href="css/futurestyle.css">
 
-<img src="pictures/giphy (2).gif" class="opac" id="background" />
-
-<h class="hidden">Hello World!</h>
+  <style>
+    html {
+      font-family: "Roboto", sans-serif;
+      position: relative;
+    }
+  </style>
+</head>
 
 <body class="#">
-  <img class="logo" src="pictures/logo.PNG">
+  <img src="pictures/giphy (2).gif" class="opac" id="background" />
 
+  <h class="hidden">Hello World!</h>
+
+  <img class="logo" src="pictures/logo.PNG">
   <div id="navbar" class="std">
     <a class="active" href="home.html">Home</a>
     <a href="javascript:void(0)">Contact</a>
     <a href="cvindex.html">Curriculum Vitae </a>
   </div>
-
-  <h10 class="fadein rellax" data-rellax-speed="-5"> What I've been doing to mine.
-  </h10>
-
+  <h10 class="fadein rellax" data-rellax-speed="-5">What I've been doing to mine.</h10>
   <div class="fadein">
-
-
     <div class="ContentContainer rellax" data-rellax-speed="0" data-rellax-zindex="1">
-
-      <h15> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis tincidunt id aliquet risus feugiat in ante metus dictum. Pharetra convallis posuere morbi leo. Risus sed vulputate
+      <h6> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis tincidunt id aliquet risus feugiat in ante metus dictum. Pharetra convallis posuere morbi leo. Risus sed vulputate
         odio ut enim blandit. Vulputate mi sit amet mauris commodo quis imperdiet. Integer vitae justo eget magna fermentum iaculis eu non. Tincidunt arcu non sodales neque sodales. Consequat nisl vel pretium lectus. Rhoncus dolor purus non enim praesent
         elementum facilisis leo vel. Viverra aliquet eget sit amet tellus. Pellentesque sit amet porttitor eget. Lobortis scelerisque fermentum dui faucibus in. Gravida neque convallis a cras semper auctor neque vitae tempus. Nulla pharetra diam sit amet
         nisl suscipit. Potenti nullam ac tortor vitae purus. Sagittis purus sit amet volutpat consequat mauris nunc congue nisi. Magnis dis parturient montes nascetur ridiculus mus. Vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt.
-        Posuere urna nec tincidunt praesent semper feugiat nibh sed. Justo eget magna fermentum iaculis eu non diam phasellus.</h15>
+        Posuere urna nec tincidunt praesent semper feugiat nibh sed. Justo eget magna fermentum iaculis eu non diam phasellus.</h6>
     </div>
 
     <!--It's a mess here omg-->
-    <div class="fadeinahx rellax" data-rellax-speed="1.5" data-rellax-zindex="-1">
-
+    <div class="fadeinahx rellax inlineimgs" data-rellax-speed="1.5" data-rellax-zindex="-1">
       <img src="pictures/ThermalTest.png" />
       <img src="pictures/ThermalCooling.png" />
-
     </div>
   </div>
   <div class="ContentContainer margin" data-rellax-zindex="1">
@@ -54,28 +48,29 @@
   </div>
   <div class="rellax" data-rellax-speed="2" data-rellax-zindex="-1"><img src="pictures/carmathparking.png" /></div>
   </main>
+  <script>
+    window.onscroll = function() {
+      myFunction()
+    };
 
-</body>
-<script>
-  window.onscroll = function() {
-    myFunction()
-  };
+    var navbar = document.getElementById("navbar");
+    var glue = navbar.offsetTop;
 
-  var navbar = document.getElementById("navbar");
-  var glue = navbar.offsetTop;
-
-  function myFunction() {
-    if (window.pageYOffset >= glue) {
-      navbar.classList.add("glue")
-    } else {
-      navbar.classList.remove("glue");
+    function myFunction() {
+      if (window.pageYOffset >= glue) {
+        navbar.classList.add("glue")
+      } else {
+        navbar.classList.remove("glue");
+      }
     }
-  }
-</script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="rellax.min.js"></script>
-<script>
-  // test
-  var rellax = new Rellax('.rellax');
-</script>
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="rellax.min.js"></script>
+  <script>
+    // test
+    var rellax = new Rellax('.rellax');
+  </script>
+</body>
+
+</html>
