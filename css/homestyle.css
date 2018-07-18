@@ -1,30 +1,29 @@
-
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 #background {
-    margin:0;
-    padding:0;
-    position:absolute;
-    z-index: -1;
-    display: initial;
-    top:0;
-    left:0;
-    width: 100%;
-    height: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    opacity: 0.90;
- }
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  z-index: -1;
+  display: initial;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.90;
+}
 
- html {
+html {
   overflow-y: scroll;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   display: none;
 }
 
@@ -32,91 +31,146 @@ body {
   opacity: 0;
   text-align: center;
   -webkit-animation: fadein 2s ease-in 0s 1 forwards;
-     -moz-animation: fadein 2s ease-in 0s 1 forwards; 
-      -ms-animation: fadein 2s ease-in 0s 1 forwards;
-       -o-animation: fadein 2s ease-in 0s 1 forwards; 
-          animation: fadein 2s ease-in 0s 1 forwards; 
+  -moz-animation: fadein 2s ease-in 0s 1 forwards;
+  -ms-animation: fadein 2s ease-in 0s 1 forwards;
+  -o-animation: fadein 2s ease-in 0s 1 forwards;
+  animation: fadein 2s ease-in 0s 1 forwards;
 }
+
 @keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
+
 @-moz-keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
+
 @-webkit-keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
+
 @-ms-keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
+
 @-o-keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .fadeinahx {
   opacity: 0;
   text-align: center;
   -webkit-animation: fadein 2s ease-in 1s 1 forwards;
-     -moz-animation: fadein 2s ease-in 1s 1 forwards; 
-      -ms-animation: fadein 2s ease-in 1s 1 forwards;
-       -o-animation: fadein 2s ease-in 1s 1 forwards; 
-          animation: fadein 2s ease-in 1s 1 forwards; 
-}
-@keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-}
-@-moz-keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-}
-@-webkit-keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-}
-@-ms-keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-}
-@-o-keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+  -moz-animation: fadein 2s ease-in 1s 1 forwards;
+  -ms-animation: fadein 2s ease-in 1s 1 forwards;
+  -o-animation: fadein 2s ease-in 1s 1 forwards;
+  animation: fadein 2s ease-in 1s 1 forwards;
 }
 
- #navbar {
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#navbar {
   overflow: hidden;
-  background-color: rgba(243,243,243,0.85);
+  background-color: rgba(243, 243, 243, 0.85);
   margin: 0px 50px 0px -0px;
   width: 100%;
   position: auto;
   z-index: 10;
 }
-  /* Translucent 
+
+/* Translucent
   color: rgba(255,255,255,0.5);
   */
+
 #navbar a {
   float: left;
   display: block;
   color: #666;
   text-align: center;
   padding: 14px;
-  text-decoration: none;  
-  
+  text-decoration: none;
 }
+
 #navbar a:hover {
   background-color: #ddd;
   color: black;
 }
+
 /* #86D2EB */
+
 #navbar a.active {
   background-color: #86D2EB;
   color: white;
 }
+
 html {
   overflow-y: scroll;
 }
@@ -124,28 +178,31 @@ html {
 .content {
   padding: 16px;
 }
+
 .glue {
   position: fixed;
   top: 0;
   width: 100%;
 }
-.glue + .content {
+
+.glue+.content {
   padding-top: 60px;
-}s
-.std {
-    opacity: 1;
-    text-align: center;
+}
+
+s .std {
+  opacity: 1;
+  text-align: center;
 }
 
 .logo {
-    padding-left: -20px;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    width: 25%;
-    height: 25%;
-    margin-left: -61px;
+  padding-left: -20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  width: 25%;
+  height: 25%;
+  margin-left: -61px;
 }
- 
+
 h3 {
   margin-top: 17%;
 }
@@ -156,24 +213,25 @@ h3, h4 {
   color: white;
   font-family: "Arial Black", Gadget, sans-serif;
 }
+
 /* but its blue heh */
+
 #hoverred a:hover {
   color: lightblue;
 }
 
 .imgcenter {
-  margin-left: auto; 
-  margin-right: auto; 
+  margin-left: auto;
+  margin-right: auto;
   display: block;
 }
 
 .hidden {
-    opacity: 0;
+  opacity: 0;
 }
 
-
 .img-responsive {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
