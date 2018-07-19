@@ -5,37 +5,46 @@
 <link rel="stylesheet" href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="css/homestyle.css">
 <style>
-  html,body,h2,h3,h4 {font-family: "Roboto", sans-serif}
-  </style>
-<img src="pictures/giphy (2).gif" class="opac" id="background"/>
+  html,
+  body,
+  h2,
+  h3,
+  h4 {
+    font-family: "Roboto", sans-serif
+  }
+</style>
+<img src="pictures/giphy (2).gif" class="opac" id="background" />
 <h class="hidden">Hello World!</h>
-<body>
-<img class="logo" src="pictures/logo.PNG">
-<div id="navbar" class="std">
-	<a class="active" href="home.html">Home</a>
-  <a href="javascript:void(0)">Contact</a>
-  <a href="cvindex.html">Curriculum Vitae </a>
-</div>
 
-<div class="content fadein opac" id="hoverred">
-  <a href="future.html"><h3>Best way to predict your future</h3>
-  <h4>is to invent it.</h4></a>
-</div>
-  
+<body>
+  <img class="logo" src="pictures/logo.PNG">
+  <div id="navbar" class="std">
+    <a class="active" href="home.html">Home</a>
+    <a href="javascript:void(0)">Contact</a>
+    <a href="cvindex.html">Curriculum Vitae </a>
+  </div>
+
+  <div class="content fadein opac" id="hoverred">
+    <a href="future.html">
+      <h3>Best way to predict your future</h3>
+      <h4>is to invent it.</h4>
+    </a>
+  </div>
+
 </body>
 <script>
-window.onscroll = function() {myFunction()};
+  window.onscroll = function () { myFunction() };
 
-var navbar = document.getElementById("navbar");
-var glue = navbar.offsetTop;
+  var navbar = document.getElementById("navbar");
+  var glue = navbar.offsetTop;
 
-function myFunction() {
-  if (window.pageYOffset >= glue) {
-    navbar.classList.add("glue")
-  } else {
-    navbar.classList.remove("glue");
+  function myFunction() {
+    if (window.pageYOffset >= glue) {
+      navbar.classList.add("glue")
+    } else {
+      navbar.classList.remove("glue");
+    }
   }
-}
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
