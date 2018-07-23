@@ -22,7 +22,8 @@ body {
   padding-top: -20px;
   padding-bottom: 20px;
   width: 25%;
-  height: 25%;
+  height: auto;
+  min-width: 150px;
   margin-left: 30px;
   margin-top: -14px;
 }
