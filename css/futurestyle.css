@@ -62,5 +62,6 @@ h10 {
 .inlineimgs img {
   display: inline-block;
   width: 40%;
-  margin: 60px auto;
+  margin: 40pxs auto;
+  height: 150%;
 }
