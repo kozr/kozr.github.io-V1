@@ -16,7 +16,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  opacity: 0.90;
+  opacity: 0.95;
 }
 
 html {
@@ -177,6 +177,7 @@ html {
 
 .content {
   padding: 16px;
+  color: aquamarine;
 }
 
 .glue {
@@ -205,13 +206,13 @@ s .std {
 }
 
 h3 {
-  margin-top: 17%;
+  margin-top: 14%;
 }
 
 h3, h4 {
   font-size: 75px;
   text-align: center;
-  color: white;
+  color: skyblue;
   font-family: "Arial Black", Gadget, sans-serif;
 }
 

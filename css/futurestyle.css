@@ -56,6 +56,10 @@ h10 {
   margin-bottom: 50%;
 }
 
+h5 {
+  font-size: 25px;
+}
+
 .margin {
   margin-top: -15%;
 }
@@ -65,3 +69,4 @@ h10 {
   margin: 40pxs auto;
   height: 150%;
 }
+
