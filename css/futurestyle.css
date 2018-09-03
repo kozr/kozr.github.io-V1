@@ -45,6 +45,21 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.ContentContainerImg {
+  display: block;
+  font-size: 25px;  
+  padding-left: 17.5%;
+  padding-right: 17.5%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  position: relative;
+  z-index: 1;
+  width: 90%;
+  margin-left: 5%;
+  background: rgba(251, 255, 255, 0.75);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .imgx {
   margin-left: 5%;
   margin-right: 5%;

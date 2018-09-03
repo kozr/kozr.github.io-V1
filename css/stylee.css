@@ -33,14 +33,13 @@ html {
 }
 
 h3 {
-  margin-top: 17%;
+  margin-top: 14%;
 }
 
 h3, h4 {
   font-size: 75px;
   text-align: center;
   color: rgb(160, 235, 235);
-  font-family: "Arial Black", Gadget, sans-serif;
 }
 
 #background {
