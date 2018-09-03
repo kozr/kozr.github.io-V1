@@ -32,12 +32,17 @@
 
 .ContentContainer {
   display: block;
-  padding: 5%;
+  font-size: 25px;  
+  padding-left: 17.5%;
+  padding-right: 17.5%;
+  padding-top: 10%;
+  padding-bottom: 10%;
   position: relative;
-  background: lightcyan;
   z-index: 1;
   width: 90%;
   margin-left: 5%;
+  background: rgba(224, 255, 255, 0.6);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .imgx {
@@ -51,7 +56,7 @@ h10 {
   display: block;
   text-align: center;
   font-size: 50px;
-  color: white;
+  color: lightblue;
   margin-top: 18%;
   margin-bottom: 50%;
 }
@@ -63,10 +68,16 @@ h5 {
 .margin {
   margin-top: -15%;
 }
+
+.marginLower {
+  margin-top: 25%;
+}
+
 .inlineimgs img {
   display: inline-block;
-  width: 40%;
-  margin: 40pxs auto;
-  height: 150%;
+  width: 90%;
+  margin: auto;
+  height: 100%;
+  
 }
 
