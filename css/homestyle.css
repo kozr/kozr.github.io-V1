@@ -237,3 +237,75 @@ h3, h4 {
   max-width: 100%;
   height: auto;
 }
+
+.ContentContainerMid {
+  margin-top: 3%;
+  display: block;
+  font-size: 25px;  
+  padding-left: 17.5%;
+  padding-right: 17.5%;
+  padding-top: 3%;
+  padding-bottom: 10%;
+  position: relative;
+  z-index: 1;
+  width: 90%;
+  margin-left: 5%;
+  background: rgba(250, 255, 255, 0.75);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 4px;
+}
+
+.fadeindiff {
+  opacity: 0;
+  text-align: center;
+  -webkit-animation: fadein 0.75s ease-out 0s 1 forwards;
+  -moz-animation: fadein 0.75s ease-out 0s 1 forwards;
+  -ms-animation: fadein 0.75s ease-out 0s 1 forwards;
+  -o-animation: fadein 0.75s ease-out 0s 1 forwards;
+  animation: fadein 0.75s ease-out 0s 1 forwards;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

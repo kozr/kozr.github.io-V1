@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+    <title> Nicholas Wong </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/homestyle.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="pictures/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="pictures/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="pictures/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="pictures/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="pictures/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="pictures/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="pictures/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="pictures/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="pictures/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="pictures/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="pictures/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="pictures/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="pictures/favicon/favicon-16x16.png">
+    <link rel="manifest" href="pictures/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="pictures/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <style>
+        html,
+    body,
+    h2,
+    h3,
+    h4 {
+      font-family: "Roboto", sans-serif
+    }
+  </style>
+</head>
+
+<body>
+    <img src="pictures/geo.png" class="opac" id="background" />
+    <h class="hidden">Hello World!</h>
+
+    <body>
+        <img class="logo" src="pictures/logo.PNG">
+        <div id="navbar" class="std">
+            <a class="active" href="home.html">Home</a>
+            <a href="javascript:void(0)">Contact</a>
+            <a href="cvindex.html">Curriculum Vitae </a>
+        </div>
+
+        <div class="ContentContainerMid fadeindiff">
+            <label for="fullname">Name</label>
+            <br>
+            <input type="text" name="name" placeholder="Your name.." style="width:75%">
+            <br>
+            <br>
+            <label for="inquiry">Inquiry</label>
+            <br>
+                <textarea name="Inquiry" placeholder="Your inquiry.." style="height:200px; width:75%"></textarea>
+
+        </div>
+
+    </body>
+    <script>
+        window.onscroll = function () {
+            myFunction()
+        };
+
+        var navbar = document.getElementById("navbar");
+        var glue = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= glue) {
+                navbar.classList.add("glue")
+            } else {
+                navbar.classList.remove("glue");
+            }
+        }
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
