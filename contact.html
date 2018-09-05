@@ -47,7 +47,17 @@
         </div>
 
         <div class="ContentContainerMid fadeindiff">
-            <form action="contactPage.php">
+                <?php $name = $_POST['name'];
+                $email = $_POST['email'];
+                $inquiry = $_POST['inquiry'];
+                $formcontent="From: $name \n Message: $message";
+                $recipient = "heigold128@gmail.com";
+                $subject = "Contact Form";
+                $mailheader = "From: $email \r\n";
+                mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
+                echo "Thank You!";
+                ?>
+            <form action="" method="post">
                 <label for="fullname">Name</label>
                 <br>
                 <input type="text" name="name" placeholder="Your name.." style="width:75%">
@@ -60,8 +70,9 @@
                 <br>
                 <textarea name="inquiry" placeholder="Your inquiry.." style="height:200px; width:75%"></textarea>
                 <br><br>
-                
+
                 <input type="submit" value="submit">
+               
             </form>
         </div>
 
