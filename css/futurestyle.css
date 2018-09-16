@@ -32,8 +32,8 @@ i {
 }
 
 .arrow {
-  width: 0; 
-  height: 0; 
+  width: 0;
+  height: 0;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   border-bottom: 20px solid transparent;
@@ -55,7 +55,7 @@ i {
 
 .ContentContainer {
   display: block;
-  font-size: 25px;  
+  font-size: 25px;
   padding-left: 17.5%;
   padding-right: 17.5%;
   padding-top: 10%;
@@ -70,7 +70,7 @@ i {
 
 .ContentContainerImg {
   display: block;
-  font-size: 25px;  
+  font-size: 25px;
   padding-left: 17.5%;
   padding-right: 17.5%;
   padding-top: 10%;
@@ -96,7 +96,6 @@ h10 {
   font-size: 50px;
   color: lightblue;
   margin-top: 18%;
-
 }
 
 h5 {
@@ -116,6 +115,56 @@ h5 {
   width: 70%;
   margin: auto;
   height: 50%;
-  
 }
 
+.w3-margin-top {
+  margin-top: 16px !important
+}
+
+.w3-centered tr th,
+.w3-centered tr td {
+  text-align: center
+}
+
+.w3-light-blue,
+.w3-hover-light-blue:hover {
+  color: white !important;
+  background-color: #87CEEB !important
+}
+
+.w3-container,
+.w3-panel {
+  padding: 0.01em 50px
+}
+
+.w3-center .w3-bar {
+  display: inline-block;
+  width: auto
+}
+
+.w3-bar-block.w3-center .w3-bar-item {
+  text-align: center
+}
+
+.w3-center {
+  text-align: center !important
+}
+
+.w3-container:after,
+.w3-container:before,
+.w3-panel:after,
+.w3-panel:before,
+.w3-row:after,
+.w3-row:before,
+.w3-row-padding:after,
+.w3-row-padding:before,
+.w3-cell-row:before,
+.w3-cell-row:after,
+.w3-clear:after,
+.w3-clear:before,
+.w3-bar:before,
+.w3-bar:after {
+  content: "";
+  display: table;
+  clear: both
+}

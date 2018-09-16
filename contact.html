@@ -47,33 +47,25 @@
         </div>
 
         <div class="ContentContainerMid fadeindiff">
-                <?php $name = $_POST['name'];
-                $email = $_POST['email'];
-                $inquiry = $_POST['inquiry'];
-                $formcontent="From: $name \n Message: $message";
-                $recipient = "heigold128@gmail.com";
-                $subject = "Contact Form";
-                $mailheader = "From: $email \r\n";
-                mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-                echo "Thank You!";
-                ?>
-            <form action="" method="post">
+            <form method="POST" action="https://formspree.io/heigold128@gmail.com">
                 <label for="fullname">Name</label>
                 <br>
-                <input type="text" name="name" placeholder="Your name.." style="width:75%">
+                <input type="name" name="name" placeholder="Your name" style="width: 75%">
                 <br>
-                <label for="Email">Email</label>
+                <label for="fullname">Email</label>
                 <br>
-                <input type="text" name="email" placeholder="Your email.." style="width:75%">
+                <input type="email" name="email" placeholder="Your email" style="width: 75%">
                 <br>
-                <label for="inquiry">Inquiry</label>
+                <label for="fullname">Your message</label>
                 <br>
-                <textarea name="inquiry" placeholder="Your inquiry.." style="height:200px; width:75%"></textarea>
-                <br><br>
-
-                <input type="submit" value="submit">
-               
+                <textarea name="message" placeholder="Your message" style="height: 200px; width: 75%;">
+                </textarea>
+                <br>
+                <br>
+                <button type="submit">Send</button>
             </form>
+
+        
         </div>
 
     </body>
